@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopMicroServices.ProductService.WebApi", "OnlineShopMicroServices.ProductService.WebApi\OnlineShopMicroServices.ProductService.WebApi.csproj", "{7F5A327A-D87D-4DE1-B0E7-A5C16A931C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopMicroServices.ProductServiceTest", "OnlineShopMicroServices.ProductServiceTest\OnlineShopMicroServices.ProductServiceTest.csproj", "{3931C8EC-AFC0-426F-996C-6BC7EF607F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5A327A-D87D-4DE1-B0E7-A5C16A931C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5A327A-D87D-4DE1-B0E7-A5C16A931C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5A327A-D87D-4DE1-B0E7-A5C16A931C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5A327A-D87D-4DE1-B0E7-A5C16A931C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3931C8EC-AFC0-426F-996C-6BC7EF607F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3931C8EC-AFC0-426F-996C-6BC7EF607F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3931C8EC-AFC0-426F-996C-6BC7EF607F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3931C8EC-AFC0-426F-996C-6BC7EF607F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D226E21-F52F-45EB-8624-5FACA19F75E6}
+	EndGlobalSection
+EndGlobal
