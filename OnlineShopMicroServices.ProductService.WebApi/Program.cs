@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineShopMicroServices.ProductService.WebApi.Interfaces;
 using OnlineShopMicroServices.ProductService.WebApi.LocalServices;
+using OnlineShopMicroServices.ProductService.WebApi.Middlewares;
 using OnlineShopMicroServices.ProductService.WebApi.Persistance;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,6 +32,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<AppExceptionHandler>();
 
 app.MapControllers();
 
